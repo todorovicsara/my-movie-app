@@ -1,5 +1,4 @@
-// const key = process.env.API_KEY;
-const key= 'a0625939d20f09ae7eaef9f0bc85d38b'
+const key = process.env.REACT_APP_API_KEY;
 
 const requests = {
   requestPopular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=1`,
@@ -8,4 +7,6 @@ const requests = {
   requestUpcoming: `https://api.themoviedb.org/3/movie/upcoming?api_key=${key}&language=en-US&page=1`,
 };
 
-export default requests;
+export default requests
+
+
